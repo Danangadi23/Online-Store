@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+nav {
+    width: 100%;
+    padding: 40px;
+}
+
+nav h1 {
+    font-size: 40px;
+}
+
+nav h3 {
+    font-size: 27px;
+}
+
+.container {
+   width: 1290px;
+   margin: auto;
+}
+
+.container .lokasi {
+    font-size: 20px;
+}
+
+.container .kuitansi {
+    width: 100%;
+}
+
+.container .kuitansi div {
+    border: 2px solid #000;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 70px;
+}
+
+.container .kuitansi p {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.container .group-uang {
+    margin-top: 30px;
+}
+
+.container .group-uang .total {
+    font-size: 24px;
+}
+.container .group-uang .total .uang {
+    font-size: 40px;
+}
+
+.container .group-uang .tgl-pesanan {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+footer {
+    width: 1290px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .pelanggan {
+    line-height:100px;
+    text-align: center;
+}
+
+footer .pemilik {
+    width: 1250px;
+    padding: 40px 0;
+    text-align: center;
+}
